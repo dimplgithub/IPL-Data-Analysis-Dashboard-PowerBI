@@ -1,6 +1,6 @@
 # 🏏 IPL Data Analysis Dashboard using Power BI
 
-![Dashboard](Screenshots/01_Home.png)
+![Dashboard](01_Home.png)
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-blue?style=for-the-badge)
@@ -20,40 +20,42 @@
 - Dashboard Preview
 - Skills Demonstrated
 - Future Enhancements
+- Repository Structure
 - Author
 
 ---
 
 # 📌 Project Overview
 
-The **IPL Data Analysis Dashboard** is an interactive Microsoft Power BI project developed to analyze Indian Premier League (IPL) match and ball-by-ball data. The dashboard transforms raw cricket data into meaningful visualizations, helping users understand player performance, match outcomes, toss decisions, venue impact, and strategic business insights.
+The **IPL Data Analysis Dashboard** is an interactive Microsoft Power BI project developed to analyze Indian Premier League (IPL) match and ball-by-ball datasets. The dashboard converts raw cricket data into meaningful visualizations that help users understand player performance, team performance, match outcomes, toss decisions, venue impact, and business insights.
 
-This project demonstrates practical skills in **Power BI, Power Query, Data Modeling, DAX, KPI Development, and Data Storytelling**.
+The project demonstrates practical knowledge of **Power BI, Power Query, Data Modeling, DAX, KPI Development, Interactive Dashboards, and Data Storytelling**.
 
 ---
 
 # 🎯 Project Objectives
 
-- Analyze IPL team and player performance.
-- Build interactive dashboards using Microsoft Power BI.
-- Identify trends and patterns from IPL data.
-- Generate business insights for data-driven decision making.
-- Improve dashboard design and visualization skills.
+- Analyze IPL matches using interactive dashboards.
+- Evaluate player and team performances.
+- Understand toss and venue impact on match outcomes.
+- Generate business insights from cricket data.
+- Practice Power BI dashboard development using real-world datasets.
 
 ---
 
 # 📂 Dataset
 
-This project uses **two IPL datasets** provided by my mentor.
+The datasets used in this project were **provided by my mentor**.
 
 ### 📄 Matches Dataset
+
 Contains:
 
 - Match ID
 - Season
 - Date
-- Venue
 - City
+- Venue
 - Toss Winner
 - Toss Decision
 - Match Winner
@@ -69,7 +71,7 @@ Contains:
 - Innings
 - Over
 - Ball
-- Batsman
+- Batter
 - Bowler
 - Runs
 - Extras
@@ -81,22 +83,34 @@ Contains:
 
 # 📊 Dashboard Pages
 
-## 🏠 1. Home
+## 🏠 1. Introduction
 
-The landing page introduces the project and provides navigation to all dashboards.
+The Introduction page welcomes users and provides an overview of the project.
 
 ### Features
 
-- Project Title
-- IPL Logo
+- Project Introduction
 - Project Objectives
-- Navigation Buttons
+- Dashboard Navigation
 
 ---
 
-## 📈 2. Overview Dashboard
+## 🏠 2. Home
 
-Provides an overall summary of the IPL dataset.
+The Home page provides a quick summary of the project.
+
+### Features
+
+- IPL Logo
+- KPI Cards
+- Navigation Buttons
+- Interactive Slicers
+
+---
+
+## 📈 3. Overview Dashboard
+
+Provides an overall summary of IPL statistics.
 
 ### KPI Cards
 
@@ -114,9 +128,9 @@ Provides an overall summary of the IPL dataset.
 
 ---
 
-## 🏏 3. Player Performance Dashboard
+## 🏏 4. Player Performance Dashboard
 
-Analyzes batting and bowling performance.
+Analyzes batting and bowling performances.
 
 ### Batting Analysis
 
@@ -130,7 +144,7 @@ Analyzes batting and bowling performance.
 - Total Wickets
 - Best Bowler
 - Top Wicket Takers
-- Economy Rate vs Wickets
+- Economy Rate Analysis
 - Dismissal Type Analysis
 
 ### Interactive Filters
@@ -142,21 +156,21 @@ Analyzes batting and bowling performance.
 
 ---
 
-## 🎯 4. IPL Match & Toss Analysis Dashboard
+## 🎯 5. Match & Toss Analysis Dashboard
 
-Provides insights into match outcomes, toss decisions, venues, and fielding.
+Provides insights into match results, toss decisions, and venue performance.
 
 ### Match Analysis
 
 - Toss Winner by Team
-- Toss Decision Distribution
+- Toss Decision Analysis
 - Toss Winner vs Match Winner
 - Win by Runs vs Win by Wickets
 
 ### Venue Analysis
 
 - Matches by Stadium
-- Lucky Stadium Analysis
+- Lucky Stadium
 - Top Fielders
 
 ### Interactive Filters
@@ -167,11 +181,11 @@ Provides insights into match outcomes, toss decisions, venues, and fielding.
 
 ---
 
-## 📈 5. Business Insights Dashboard
+## 📊 6. Business Insights Dashboard
 
-Transforms data analysis into actionable business recommendations.
+Converts analysis into strategic recommendations.
 
-### Key Business Insights
+### Business Insights
 
 - Toss Strategy
 - Fielding Investment
@@ -180,10 +194,10 @@ Transforms data analysis into actionable business recommendations.
 
 ### Recommendations
 
-- Optimize toss decisions according to pitch and venue.
-- Invest in fielding to increase wicket-taking opportunities.
-- Utilize home-ground advantage effectively.
-- Prioritize aggressive batsmen with strong boundary-hitting ability.
+- Optimize toss decisions based on venue and pitch conditions.
+- Improve fielding performance to increase wicket opportunities.
+- Utilize home-ground strengths.
+- Prioritize players with strong power-hitting ability.
 
 ---
 
@@ -193,50 +207,56 @@ Transforms data analysis into actionable business recommendations.
 - Power Query
 - DAX (Data Analysis Expressions)
 - Data Modeling
-- Interactive Dashboard Design
 - Data Visualization
+- Interactive Dashboard Design
 
 ---
 
 # 📈 Key Insights
 
-- Power hitters generally score more runs through boundary hitting.
-- Catches contribute to the majority of dismissals, highlighting the importance of fielding.
-- Winning the toss offers a strategic advantage but does not guarantee victory.
-- Teams often perform better at specific venues due to familiarity with pitch conditions.
-- Interactive dashboards help users explore IPL statistics efficiently.
+- Power hitters contribute significantly to total team runs.
+- Catches account for the highest percentage of dismissals.
+- Home-ground advantage influences match performance.
+- Winning the toss provides an advantage but does not guarantee victory.
+- Interactive dashboards simplify IPL performance analysis.
 
 ---
 
 # 📷 Dashboard Preview
 
+## 🏠 Introduction
+
+![Introduction](00_Introduction.png)
+
+---
+
 ## 🏠 Home
 
-![Home](Screenshots/01_Home.png)
+![Home](01_Home.png)
 
 ---
 
 ## 📊 Overview Dashboard
 
-![Overview](Screenshots/02_Overview.png)
+![Overview](02_Overview.png)
 
 ---
 
 ## 🏏 Player Performance Dashboard
 
-![Player Performance](Screenshots/03_Player_Performance.png)
+![Player Performance](03_Player_Performance.png)
 
 ---
 
 ## 🎯 Match & Toss Analysis Dashboard
 
-![Match & Toss Analysis](Screenshots/04_Match_Toss_Analysis.png)
+![Match & Toss Analysis](04_Match_Toss_Analysis.png)
 
 ---
 
-## 📈 Business Insights Dashboard
+## 📊 Business Insights Dashboard
 
-![Business Insights](Screenshots/05_Business_Insights.png)
+![Business Insights](05_Business_Insights.png)
 
 ---
 
@@ -245,23 +265,24 @@ Transforms data analysis into actionable business recommendations.
 - ✅ Data Cleaning
 - ✅ Data Transformation
 - ✅ Data Modeling
-- ✅ DAX Calculations
+- ✅ DAX Measures
 - ✅ Power Query
 - ✅ KPI Development
 - ✅ Dashboard Design
-- ✅ Interactive Visualizations
-- ✅ Data Storytelling
+- ✅ Interactive Reports
+- ✅ Data Visualization
 - ✅ Business Intelligence
+- ✅ Data Storytelling
 
 ---
 
 # 🚀 Future Enhancements
 
-- Integrate live IPL data.
-- Build player comparison dashboards.
-- Develop predictive analytics using machine learning.
-- Create mobile-friendly dashboards.
-- Add advanced performance metrics.
+- Integrate live IPL datasets.
+- Add player comparison analysis.
+- Include predictive analytics.
+- Develop mobile-friendly dashboards.
+- Add advanced player statistics.
 
 ---
 
@@ -272,13 +293,12 @@ IPL-Data-Analysis-Dashboard-PowerBI
 │
 ├── IPL_Data_Analysis_Dashboard.pbix
 ├── README.md
-│
-└── Screenshots
-      ├── 01_Home.png
-      ├── 02_Overview.png
-      ├── 03_Player_Performance.png
-      ├── 04_Match_Toss_Analysis.png
-      └── 05_Business_Insights.png
+├── 00_Introduction.png
+├── 01_Home.png
+├── 02_Overview.png
+├── 03_Player_Performance.png
+├── 04_Match_Toss_Analysis.png
+├── 05_Business_Insights.png
 ```
 
 ---
@@ -293,10 +313,14 @@ IPL-Data-Analysis-Dashboard-PowerBI
 
 🐍 Python Learner
 
-💡 Passionate about Data Analytics, Business Intelligence, and Data Visualization.
+💡 Passionate about Data Analytics, Business Intelligence, Data Visualization, and Building Interactive Dashboards.
 
 ---
 
-## ⭐ If you found this project helpful, please consider giving this repository a star!
+
+
+## ⭐ Support
+
+If you found this project useful or interesting, please consider giving this repository a ⭐.
 
 Thank you for visiting my project!
